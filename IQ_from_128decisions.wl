@@ -22,6 +22,15 @@ dps=Catenate@Table[configs[dd,pp],
 	{pp,0,31},{dd,21}];
 IdealOuts=IntegerDigits[ Range[14],2,4];
 
+IQ128[n_] := Module[{len, dec, perms},
+  (
+   len = 7; dec = IntegerDigits[n, 2, 128];
+   cnts = ConstantArray[0., 16];
+   Do[
+    	MeasuredOut = Table[dec[[c + 1]], {c, dp}];
+    		cnts[[ 1 + FromDigits[MeasuredOut, 2 ]]] += 1. , {dp, dps}];
+   GeometricMean@cnts
+   )]
 
 FunctionalDiversity[decisions_]:=
 Table[
