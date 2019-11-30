@@ -1,4 +1,4 @@
-Added abundance_NPinternet.nb on 06/06/2018
+abundance_NPinternet.nb (for XOR functionality)
   Parameters that are recommended to be modified are:
     Np (number of particles per cluster)
     rP (radius of nanoparticle)
@@ -6,4 +6,4 @@ Added abundance_NPinternet.nb on 06/06/2018
     nT (tunnelling number)
     uBG (background charge variance)
     
-Contact Celestine for more information.
+digit_recognition.wl (with abundance for random network, linear network, nonlinear network)
