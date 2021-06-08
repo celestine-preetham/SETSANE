@@ -7,3 +7,5 @@ Parameters that are recommended to be modified are:
     uBG (background charge variance)
     
 <b>digit_recognition.wl</b> (with abundance for random network, linear network, nonlinear network).
+
+<b>IQ_digit_classification.wl</b> (comparison across random, linear and 2-factor weighted sum functions).
